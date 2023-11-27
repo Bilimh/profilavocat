@@ -1,0 +1,398 @@
+:root {
+  --font1: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-Main: #0b2539;
+  --color-Green: #2ccc84;
+  --color-Blue: #2625b8;
+  --color1: #fe9063;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--font1);
+ 
+  margin: 0;
+}
+
+
+header {
+  position: relative;
+  color: var(--color-Blue);
+  font-size: var(--font1);
+  font-weight: bold;
+  height: 100px;
+  background: white;
+  margin: 0;
+}
+
+.header_item {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  
+  z-index: 2;
+ 
+}
+
+.logo img {
+  width: 200px;
+  height: 40px;
+}
+
+.logo {
+  position: absolute;
+  left: 0px;
+  width: 40%;
+  /*margin-top: 30px;*/
+  z-index: 2;
+  background: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+ padding-left: 30px;
+
+}
+
+.blog_information {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  position: absolute;
+  right: 0px;
+  /*margin-top: 30px;*/
+  background: white;
+  height: 100px;
+  align-items: center;
+  z-index: 3;
+
+}
+
+i {
+  font-size: 18px;
+}
+
+.container_profil {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 80%;
+  z-index: 1;
+  /*background-color: #EAEAEE;*/
+}
+
+.description_profil {
+  display: flex;
+  flex-direction: column;
+}
+
+.description_profil_item {
+  display: flex;
+}
+
+.description_profil_image {
+  width: 30%;
+  max-width: 350px;
+  max-height: 350px;
+  margin-right: 50px;
+  /*background-color: var(--color-Green);*/
+  padding-top: 17px;
+  padding-left: 17px;
+  border-radius: 10px;
+
+}
+
+.description_profil_image img {
+  width: 95%;
+  height: 95%;
+}
+
+.description_profil_information {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: var(--color-Blue);
+  font-weight: bold;
+
+}
+
+.name_title {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.apropos .name_title{
+  font-size: 20px;
+}
+
+.description_profil_information i {
+  color: var(--color1);
+  margin: 5px;
+}
+
+.barre_information {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 40px;
+  background-color: var(--color1)
+    /*#f4f4f4;*/
+  ;
+  border-radius: 20px 20px 0 0;
+}
+
+.barre_information p {
+  margin-right: 1px;
+  padding: 10px;
+  background-color: var(--color-Blue);
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.barre_information p:nth-child(1) {
+  background: var(--color-Green);
+  border-radius: 20px 0 0 0;
+}
+
+.apropos {
+  color: var(--color-Blue);
+}
+
+.apropos_detail {
+  font-size: 18px;
+}
+
+.apropos i {
+  font-size: 32px;
+  margin: 5px;
+  color: var(--color1);
+}
+
+
+
+.annuaire {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.annuaire_item {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid var(--color-Green);
+}
+
+.tout {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo_profil {
+  width: 60%;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.description {
+  width: 35%;
+}
+
+.titre_nom {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.photo_profil img {
+  width: 100%;
+  height: 100%;
+  /*border-radius: 20px;*/
+}
+
+.description_domaine_item {
+  background: var(--color1);
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.description_item {
+  color: var(--color-Blue);
+}
+
+.interesser{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+footer{
+  height: 75vh;
+  background: var(--color-Blue);
+  margin: 40px 0 0 0;
+  display: flex;
+  color: white;
+}
+.footer_item{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.footer_item p {
+  margin-bottom: 30px;
+}
+.lien{
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer_title{
+  font-weight:bold ;
+}
+.resp{
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .blog_information {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    right: 30px;
+    margin-top: 30px;
+    z-index: 2;
+    transform: translateY(-400%);
+  }
+  .annuaire{
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+    margin-left: 18px;
+  }
+
+  .photo_profil {
+    width: 60%;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  .container_profil{
+    width: 100%;
+  }
+  .barre_information{
+    font-size: 14px;
+  }
+ 
+  
+  .description_profil_image{
+    display: flex;
+    width: 100%;
+    max-width: 90%;
+    object-fit: cover;
+    max-height: 5%;
+    overflow: hidden;
+    justify-content: center;
+    padding: 0;
+  }
+  .description_profil_image img{
+ 
+    object-fit: cover;
+
+  }
+  .barre_information p{
+    font-size: 13px;
+    border-radius: 0;
+  }
+  .barre_information {
+     border-radius: 0;
+  }
+
+.barre_information p:nth-child(1) {
+  background: var(--color-Green);
+  border-radius: 0;
+}
+
+  .description_profil_information {
+    width: 100%;
+    color: var(--color-Blue);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+  
+  }
+  .apropos_detail{
+    margin-left: 30px;
+    margin-bottom: 0;
+
+  }
+  .apropos .name_title{
+    margin-left: 15px;
+    font: 16px;
+  }
+  .container_profil {
+    width: 100%;
+    z-index: 1;
+    /*background-color: #EAEAEE;*/
+  }
+  .description_profil {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    background: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-around;
+  
+  }
+  .logo img{
+   position: absolute;
+   left: 10px;
+  }
+  .logo p{
+    position: absolute;
+    left: 70%;
+  }
+  .logo div{
+    position: absolute;
+    left: 80%;
+  }
+
+  .description_profil_item {
+    display: flex;
+    flex-direction: column;
+  }
+  .resp{
+    display: flex;
+  }
+  .sep{
+    margin-top: 30px;
+    width: 98%;
+    margin-left: 5px;
+    height: 1px;
+    background-color: #eaeaea;
+  }
+
+ 
+}
