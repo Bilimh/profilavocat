@@ -28,9 +28,9 @@ header {
   justify-content: space-around;
   position: fixed;
   width: 100%;
-  
+
   z-index: 2;
- 
+
 }
 
 .logo img {
@@ -48,7 +48,7 @@ header {
   height: 100px;
   display: flex;
   align-items: center;
- padding-left: 30px;
+  padding-left: 30px;
 
 }
 
@@ -118,7 +118,8 @@ i {
   font-size: 32px;
   margin-bottom: 0;
 }
-.apropos .name_title{
+
+.apropos .name_title {
   font-size: 20px;
 }
 
@@ -133,7 +134,7 @@ i {
   width: 100%;
   margin-top: 40px;
   background-color: var(--color1);
-    /*#f4f4f4;*/
+  /*#f4f4f4;*/
   border-radius: 20px 20px 0 0;
 }
 
@@ -167,7 +168,7 @@ i {
   color: var(--color-Green);
 }
 
-.sep{
+.sep {
   margin-top: 30px;
   width: 98%;
   margin-left: 5px;
@@ -186,12 +187,12 @@ i {
   max-width: 100%;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
   background: white;
   padding: 10px;
   color: black;
   /*border-radius: 20px;*/
-  border-bottom: 1px solid #eaeaea;
+  border: 1px solid #eaeaea;
 }
 
 .tout {
@@ -203,7 +204,7 @@ i {
 
 .photo_profil {
   width: 35%;
-  max-height: 150px;
+ height: 150px;
   overflow: hidden;
 }
 
@@ -215,6 +216,7 @@ i {
   font-size: 16px;
   font-weight: bold;
   color: var(--color-Blue);
+
 }
 
 .photo_profil img {
@@ -233,10 +235,12 @@ i {
   text-decoration: underline;
   margin: 0;
 }
-.reseau{
- margin-top: 30px;
- margin-bottom: 30px;
+
+.reseau {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
 .reseau i {
   margin-right: 30px;
 }
@@ -245,7 +249,7 @@ i {
   color: var(--color-Blue);
 }
 
-.interesser{
+.interesser {
   font-size: 18px;
   font-weight: normal;
   margin-left: 20px;
@@ -255,14 +259,15 @@ i {
   text-decoration: underline;
 }
 
-footer{
+footer {
   height: 75vh;
   background: var(--color-Blue);
   margin: 40px 0 0 0;
   display: flex;
   color: white;
 }
-.footer_item{
+
+.footer_item {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -273,15 +278,18 @@ footer{
 .footer_item p {
   margin-bottom: 30px;
 }
+
 .simulegal,
-.lien{
+.lien {
   font-weight: bold;
   font-size: 18px;
 }
-.footer_title{
-  font-weight:bold ;
+
+.footer_title {
+  font-weight: bold;
 }
-.resp{
+
+.resp {
   display: none;
 }
 
@@ -297,8 +305,9 @@ footer{
     z-index: 2;
     transform: translateY(-400%);
   }
-  .annuaire{
-    grid-template-columns: repeat(1,1fr);
+
+  .annuaire {
+    grid-template-columns: repeat(1, 1fr);
     width: 90%;
     margin-left: 18px;
   }
@@ -308,18 +317,20 @@ footer{
     max-height: 300px;
     overflow: hidden;
   }
-  .container_profil{
+
+  .container_profil {
     width: 100%;
   }
-  .barre_information{
+
+  .barre_information {
     font-size: 14px;
     width: 98%;
     margin-left: 5px;
     padding-right: 10px;
   }
- 
-  
-  .description_profil_image{
+
+
+  .description_profil_image {
     display: flex;
     width: 100%;
     max-width: 90%;
@@ -331,26 +342,29 @@ footer{
     align-items: center;
 
   }
-  .description_profil_image img{
- 
-    object-fit: cover;  
+
+  .description_profil_image img {
+
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 
   }
-  .barre_information p{
+
+  .barre_information p {
     font-size: 13px;
     border-radius: 0;
   }
+
   .barre_information {
-     border-radius: 0;
+    border-radius: 0;
   }
 
-.barre_information p:nth-child(1) {
-  background: var(--color-Green);
-  border-radius: 0;
-}
+  .barre_information p:nth-child(1) {
+    background: var(--color-Green);
+    border-radius: 0;
+  }
 
   .description_profil_information {
     width: 100%;
@@ -358,27 +372,32 @@ footer{
     font-weight: bold;
     font-size: 16px;
     padding: 15px;
-  
+
   }
-  .apropos_detail{
+
+  .apropos_detail {
     margin-left: 30px;
     margin-bottom: 0;
 
   }
-  .apropos .name_title{
+
+  .apropos .name_title {
     margin-left: 15px;
     font: 16px;
   }
+
   .container_profil {
     width: 100%;
     z-index: 1;
     /*background-color: #EAEAEE;*/
   }
+
   .description_profil {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .logo {
     position: absolute;
     left: 0px;
@@ -390,17 +409,20 @@ footer{
     align-items: center;
     padding-left: 30px;
     justify-content: space-around;
-  
+
   }
-  .logo img{
-   position: absolute;
-   left: 10px;
+
+  .logo img {
+    position: absolute;
+    left: 10px;
   }
-  .logo p{
+
+  .logo p {
     position: absolute;
     right: 30%;
   }
-  .logo div{
+
+  .logo div {
     position: absolute;
     left: 80%;
   }
@@ -409,10 +431,12 @@ footer{
     display: flex;
     flex-direction: column;
   }
-  .resp{
+
+  .resp {
     display: flex;
   }
-  .footer_item{
+
+  .footer_item {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -420,44 +444,48 @@ footer{
     height: 100%;
     align-items: center;
   }
-  footer{
+
+  footer {
     height: auto;
     padding-top: 30px;
   }
-  
-/*.tout {
+
+  /*.tout {
   display: flex;
   flex-direction: column;
   max-width: 100%;
   justify-content: space-between;
   align-items: center;
 }*/
-.photo_profil{
-  width: 90px;
-  height: 90px;
-  border-radius: 100%;
-}
-.description{
-  width: 70%;
-  margin-left: 10px;
-}
-.annuaire_item {
-  display: block;
-  max-width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  padding: 10px;
-  color: black;
-  /*border-radius: 20px;*/
-  border-bottom: 1px solid #eaeaea;
-}
-.tout {
-  display: ;
-  max-width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
- 
+  .photo_profil {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+
+  .description {
+    width: 70%;
+    margin-left: 10px;
+  }
+
+  .annuaire_item {
+    display: block;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    color: black;
+    /*border-radius: 20px;*/
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .tout {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 }
