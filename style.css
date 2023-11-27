@@ -133,9 +133,8 @@ i {
   justify-content: flex-start;
   width: 100%;
   margin-top: 40px;
-  background-color: var(--color1)
+  background-color: var(--color1);
     /*#f4f4f4;*/
-  ;
   border-radius: 20px 20px 0 0;
 }
 
@@ -312,6 +311,7 @@ footer{
   }
   .barre_information{
     font-size: 14px;
+    width: 100;
   }
  
   
@@ -394,7 +394,7 @@ footer{
   }
   .logo p{
     position: absolute;
-    left: 70%;
+    right: 30%;
   }
   .logo div{
     position: absolute;
