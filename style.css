@@ -202,13 +202,13 @@ i {
 }
 
 .photo_profil {
-  width: 60%;
+  width: 35%;
   max-height: 150px;
   overflow: hidden;
 }
 
 .description {
-  width: 35%;
+  width: 60%;
 }
 
 .titre_nom {
@@ -224,12 +224,14 @@ i {
 }
 
 .description_domaine_item {
-  background: var(--color1);
+  /*background: var(--color1);*/
   padding: 8px;
-  color: white;
+  color: var(--color-Blue);
   font-size: 16px;
   border-radius: 16px;
   text-align: center;
+  text-decoration: underline;
+  margin: 0;
 }
 .reseau{
  margin-top: 30px;
@@ -250,6 +252,7 @@ i {
   margin-bottom: 20px;
   margin-top: 20px;
   color: var(--color-Blue);
+  text-decoration: underline;
 }
 
 footer{
@@ -438,6 +441,23 @@ footer{
   width: 70%;
   margin-left: 10px;
 }
-
+.annuaire_item {
+  display: block;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  color: black;
+  /*border-radius: 20px;*/
+  border-bottom: 1px solid #eaeaea;
+}
+.tout {
+  display: ;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
  
 }
