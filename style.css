@@ -169,7 +169,13 @@ i {
   color: var(--color1);
 }
 
-
+.sep{
+  margin-top: 30px;
+  width: 98%;
+  margin-left: 5px;
+  height: 1px;
+  background-color: #eaeaea;
+}
 
 .annuaire {
   display: grid;
@@ -226,6 +232,13 @@ i {
   border-radius: 16px;
   text-align: center;
 }
+.reseau{
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.reseau i {
+  margin-right: 30px;
+}
 
 .description_item {
   color: var(--color-Blue);
@@ -253,9 +266,11 @@ footer{
   height: 100%;
   align-items: center;
 }
+
 .footer_item p {
   margin-bottom: 30px;
 }
+.simulegal,
 .lien{
   font-weight: bold;
   font-size: 18px;
@@ -386,13 +401,7 @@ footer{
   .resp{
     display: flex;
   }
-  .sep{
-    margin-top: 30px;
-    width: 98%;
-    margin-left: 5px;
-    height: 1px;
-    background-color: #eaeaea;
-  }
+
 
  
 }
