@@ -1,3 +1,3 @@
 export default {
-	base: '/profil',
+	base: '/profilavocat',
 }
